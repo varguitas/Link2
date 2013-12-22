@@ -13,5 +13,8 @@ Then, add the attribute data-href, with the url that you want to load.
 
 Example
 -------
+<blockquote>
 <!-- This will load the hole page with the contact.html located at the same location of this file. The data-title is for the new title of the site after loading.-->
 <div class="link2_a" data-href="contact.html" data-title="Contact">Contact the admin</div>
+</blockquote>
+
