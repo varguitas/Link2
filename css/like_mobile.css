@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+div.lm_st1,section.lm_st1 {
+	padding: 0.3em;
+}
+div.lm_st1 form,section.lm_st1 form {
+	width: 100%;
+}
+div.lm_st1 form p,section.lm_st1 form p, div.lm_st1 form label,section.lm_st1 form label {
+	color: #333;
+	font-family: Verdana, Geneva, sans-serif;
+}
+div.lm_st1 input,section.lm_st1 input {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	margin-left: 0.6em;
+	outline: none;
+	padding: 0 0.5em;
+	height: 2em;
+	width: 90%;
+}
+div.lm_st1 input:hover,section.lm_st1 input:hover {
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(72,62,39,0);
+	box-shadow: 2px 2px 2px 2px rgba(52,60,97,0.0);
+}
+div.lm_st1 input:focus,section.lm_st1 input:focus {
+	-webkit-box-shadow: 1px 1px 1px 1px #1F88DE;
+	box-shadow: 1px 1px 1px 1px #1F88DE;
+}

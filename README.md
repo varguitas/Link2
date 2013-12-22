@@ -9,7 +9,9 @@ How to use
 Add the class .link2_a to those elements where you need to redirect. (Cannot be an A HREF) 
 Then, add the attribute data-href, with the url that you want to load.
 
-*This library REQUIRES JQuery and the jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.slider.js, jquery.ui.effect.js, jquery.ui.effect-slide.js. Use the hole JQueryUI library or the customized library included in this repository.*
+**This library REQUIRES JQuery and the jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.slider.js, jquery.ui.effect.js, jquery.ui.effect-slide.js. Use the hole JQueryUI library or the customized library included in this repository.**
+
+The link2 library uses the window.history manipulation tools from html5.
 
 Example
 -------
